@@ -1,0 +1,69 @@
+[background fade="0.0"]
+# Hintergrung hinzufügen!
+[style name="3_style"]
+join character1 leftmost [animation="Fade In" length="0.0"]
+# for skipping!
+- Lyra P
+	jump Lyras Problem
+- normalplay
+	jump Start-Chapter1
+label Start-Chapter1
+[background fade="0.0"]
+# Hintergrung hinzufügen!
+[style name="3_style"]
+join character1 leftmost [animation="Fade In" length="0.0"]
+character1: Oh hello
+character1: You are new right?
+set {Boy_name} = "Nolan"
+character1: Nice to meet you, i am Nolan
+- Hi
+	character3: Hello Nolan!
+	character3: How are you?
+	character1: I am fine, thank you \:D
+	jump Lyras Problem
+- Who are you?
+	character3: Who are you and what do you want from me?
+	# wechsel zu Nolan confused/peinlich
+	character1: Sorry i dont want to bother you. I just want to make new friends.
+	- cool!
+		character3: Oh, this very cool!
+		jump Lyras Problem
+	- Shut up
+		character3: Shut up Nolan!
+		character1: Ok bye
+		[wait time="1.0"]
+		jump The bad Ending
+label Lyras Problem
+[wait time="1.5"]
+character2: HELP!!!
+[wait time="1.0"]
+join character2 rightmost [z_index="10"]
+character2: PLEASE!
+character2: I need your help!
+set {Lyra_name} = "Lyra"
+character2: I am Lyra and i have a big problem!
+- help
+	character3: We will help you!
+	jump Help Lyra
+- dont help
+	character3: I dont want to help you!
+	character2: no, please!
+	character1: But i will you.
+	- Follow Nolan
+		jump Help Lyra
+		# hinter grund wechsel mit schrift: Nolan geht mit Lyra weiter
+	- Stay
+		The End
+		[wait_input]
+		[end_timeline]
+label Help Lyra
+[wait time="1.0"]
+character1: What is your problem?
+character2: Follow me, we need to get to a safe place.
+# Hintergrundwechsel und Charater änderung!
+# Endings
+label The bad Ending
+THE END!
+# assest für nolan sad!
+[wait_input hide_text="false"]
+[end_timeline]

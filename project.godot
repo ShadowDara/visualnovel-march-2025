@@ -28,6 +28,8 @@ directories/dch_directory={
 "character3": "res://files/character3.dch"
 }
 directories/dtl_directory={
+"endings": "res://files/endings.dtl",
+"the_plan": "res://files/the_plan.dtl",
 "timeline1": "res://files/timeline1.dtl"
 }
 glossary/default_case_sensitive=true

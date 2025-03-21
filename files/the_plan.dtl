@@ -1,0 +1,10 @@
+leave character2
+[wait time="1.0"]
+join character1 center
+[wait time="1.0"]
+character1: What do you think?
+character1: Should we call the police?
+- Yes
+	# End 1
+	jump endings/Call Police
+- Ne

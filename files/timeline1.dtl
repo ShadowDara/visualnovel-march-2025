@@ -1,3 +1,7 @@
+# add no's and different endings!
+# more assets
+# sounds
+# backgroungs scenes
 [background fade="0.0"]
 # Hintergrung hinzufügen!
 [style name="3_style"]
@@ -74,10 +78,28 @@ join character2 center [mirrored="true"]
 [wait time="1.0"]
 character2: I think here we are safe!
 character2: There was a guy!
-character2: I saw him when he was doing something strange!
-I had never seen him before here in school!
-character2: He said there is a bomb in the school...
-and will explode
+character2: I saw him doing something strange!
+character2: I had never seen him before here in school!
+character2: When he saw me, 
+he threatend me that he will the explode the school...
+character2: when i told anyone else about his presens
+[wait_input]
+character2: ... but i need to tell it to anyone ...
+[wait time="1.0"]
+character2: So....
+[wait time="1.0"]
+character2: Can you please help me? It is so dangerus for everyone here!
+[wait time="0.5" hide_text="false"]
+- Yes
+	character2: Thank you, thank you, thank you so much <3
+	join character2 leftmost [mirrored="true"]
+	[wait_input hide_text="false"]
+	join character1 rightmost [mirrored="true"]
+	character1: We need to make a plan!
+	jump the_plan/
+- No
+	# End 2
+	jump endings/No Help
 # Endings
 label The bad Ending
 THE END!

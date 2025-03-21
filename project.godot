@@ -23,15 +23,15 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"character1": "res://character1.dch",
-"character2": "res://character2.dch",
-"character3": "res://character3.dch"
+"character1": "res://files/character1.dch",
+"character2": "res://files/character2.dch",
+"character3": "res://files/character3.dch"
 }
 directories/dtl_directory={
-"timeline1": "res://timeline1.dtl"
+"timeline1": "res://files/timeline1.dtl"
 }
 glossary/default_case_sensitive=true
-layout/style_list=["res://3_style.tres"]
+layout/style_list=["res://files/3_style.tres"]
 layout/default_style="res://3_style.tres"
 variables={
 "Boy_name": "???",

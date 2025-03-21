@@ -61,6 +61,23 @@ label Help Lyra
 character1: What is your problem?
 character2: Follow me, we need to get to a safe place.
 # Hintergrundwechsel und Charater änderung!
+[wait time="0.5"]
+leave character1
+[wait time="0.5"]
+leave character2
+[wait time="1.0"]
+[background scene="res://files/black_screen.tscn" fade="1.0"]
+[wait time="1.0"]
+[background fade="1.0"]
+[wait time="1.0"]
+join character2 center [mirrored="true"]
+[wait time="1.0"]
+character2: I think here we are safe!
+character2: There was a guy!
+character2: I saw him when he was doing something strange!
+I had never seen him before here in school!
+character2: He said there is a bomb in the school...
+and will explode
 # Endings
 label The bad Ending
 THE END!

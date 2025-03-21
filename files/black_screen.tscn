@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://dw6q8nwpiei4j"]
+
+[ext_resource type="Texture2D" uid="uid://but1h7tl032d" path="res://assets/balckscreen.jpeg" id="1_rouqk"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Balckscreen" type="Sprite2D" parent="."]
+position = Vector2(966, 547)
+scale = Vector2(8.73556, 4.95778)
+texture = ExtResource("1_rouqk")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 709.0
+offset_top = 530.0
+offset_right = 1248.0
+offset_bottom = 880.0

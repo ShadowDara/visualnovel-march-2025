@@ -6,5 +6,48 @@ character1: What do you think?
 character1: Should we call the police?
 - Yes
 	# End 1
+	character3: Yes, defenetly!
 	jump endings/Call Police
-- Ne
+- No
+	character3: No, this would not end good!
+	[wait time="1.0"]
+	join character2 leftmost
+	[wait time="1.0"]
+	join character1 rightmost
+	[wait time="1.0"]
+	character3: We need a plan!
+	[wait time="1.0"]
+	jump The Plan
+label The Plan
+character1: We have to survey the people to identify irregularities.
+character1: This way, we can find the perpetrator.
+character1: We'll split up; that way, we'll be faster.
+character1: I'll go to the auditorium
+character1: you two split up and check the science rooms ...
+character1: and classrooms. Then we'll meet back here!
+character1: Where do you want to go?
+- Science Rooms
+	character3: I'll go to the scienceooms!
+	jump science rooms
+- Classrooms
+	character3: I'll go to the classrooms!
+	jump classrooms
+label science rooms
+[wait time="1.0"]
+leave character1
+leave character2
+[wait time="1.0"]
+[background scene="res://files/black_screen.tscn" fade="0.0"]
+[wait time="1.0"]
+[background fade="0.0"]
+[wait time="1.0"]
+label classrooms
+[wait time="1.0"]
+leave character1
+leave character2
+[wait time="1.0"]
+[background scene="res://files/black_screen.tscn" fade="0.0"]
+[wait time="1.0"]
+[background arg="res://assets/empty school/empty_school (4).jpg" fade="0.0"]
+[wait time="1.0"]
+label toilet

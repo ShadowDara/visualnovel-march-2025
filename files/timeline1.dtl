@@ -2,7 +2,7 @@
 # more assets
 # sounds
 # backgroungs scenes
-[background fade="0.0"]
+[background arg="res://assets/Cafe Backgorund/Cafe_Alley.jpg" fade="0.0"]
 # Hintergrung hinzufügen!
 [style name="3_style"]
 join character1 leftmost [animation="Fade In" length="0.0"]
@@ -72,7 +72,7 @@ leave character2
 [wait time="1.0"]
 [background scene="res://files/black_screen.tscn" fade="1.0"]
 [wait time="1.0"]
-[background fade="1.0"]
+[background arg="res://assets/empty school/empty_school (55).jpg" fade="1.0"]
 [wait time="1.0"]
 join character2 center [mirrored="true"]
 [wait time="1.0"]
@@ -80,7 +80,7 @@ character2: I think here we are safe!
 character2: There was a guy!
 character2: I saw him doing something strange!
 character2: I had never seen him before here in school!
-character2: When he saw me, 
+character2: When he saw me,
 he threatend me that he will the explode the school...
 character2: when i told anyone else about his presens
 [wait_input]

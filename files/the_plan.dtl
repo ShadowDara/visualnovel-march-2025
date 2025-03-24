@@ -39,7 +39,7 @@ leave character2
 [wait time="1.0"]
 [background scene="res://files/black_screen.tscn" fade="0.0"]
 [wait time="1.0"]
-[background fade="0.0"]
+[background arg="res://assets/empty school/empty_school (7).jpg" fade="0.0"]
 [wait time="1.0"]
 label classrooms
 [wait time="1.0"]

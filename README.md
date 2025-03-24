@@ -11,3 +11,6 @@ are able to play it!
 - Godot Game Engine
 - Text bubbles with Dialogic Pluigin *(see LICENSE FILE)* - https://github.com/dialogic-godot/dialogic - Version: Dialogic 2.0 - Alpha 16
 - Characters made with VRoid Studio
+
+## License
+Check the LICENSE and the sub-license.html file!

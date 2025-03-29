@@ -5,8 +5,8 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Balckscreen" type="Sprite2D" parent="."]
-position = Vector2(966, 547)
-scale = Vector2(8.73556, 4.95778)
+position = Vector2(960, 540)
+scale = Vector2(8.53333, 4.8)
 texture = ExtResource("1_rouqk")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]

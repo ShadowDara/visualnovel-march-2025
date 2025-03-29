@@ -8,30 +8,29 @@
 "sound_moods": {},
 "style": ""
 },
-&"default_portrait": "happy",
+&"default_portrait": "base",
 &"description": "",
-&"display_name": "{Boy_name}",
+&"display_name": "Dara",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"happy": {
+"base": {
 "export_overrides": {
-"image": "\"res://assets/25-Mar-12-06-06-19-16.png\""
+"image": "\"res://assets/dara-base.png\""
 },
-"ignore_char_scale": false,
 "mirror": false,
-"offset": Vector2(100, 0),
-"scale": 0.8,
+"offset": Vector2(0, 0),
+"scale": 1.0,
 "scene": ""
 },
-"sad": {
+"scared": {
 "export_overrides": {
-"image": "\"res://assets/25-Mar-29-02-02-10-34.png\""
+"image": "\"res://assets/dara-scared.png\""
 },
 "mirror": false,
-"offset": Vector2(100, 0),
-"scale": 0.8,
+"offset": Vector2(0, 0),
+"scale": 1,
 "scene": ""
 }
 },

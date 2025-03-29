@@ -25,7 +25,9 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 directories/dch_directory={
 "character1": "res://files/character1.dch",
 "character2": "res://files/character2.dch",
-"character3": "res://files/character3.dch"
+"character3": "res://files/character3.dch",
+"dara": "res://files/dara.dch",
+"guy": "res://files/guy.dch"
 }
 directories/dtl_directory={
 "endings": "res://files/endings.dtl",

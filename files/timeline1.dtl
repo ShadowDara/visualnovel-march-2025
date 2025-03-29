@@ -2,20 +2,20 @@
 # more assets
 # sounds
 # backgroungs scenes
-[background arg="res://assets/Cafe Backgorund/Cafe_Alley.jpg" fade="0.0"]
-# Hintergrung hinzufügen!
 [style name="3_style"]
-join character1 leftmost [animation="Fade In" length="0.0"]
-# for skipping!
+[background arg="res://assets/Cafe Backgorund/Cafe_Alley.jpg" fade="2.0"]
+[wait time="2.0"]
+join character1 leftmost [animation="Fade In" wait="true"]
+# Hintergrung hinzufügen!
+# for skipping! (nöch löschen)
 - Lyra P
 	jump Lyras Problem
 - normalplay
 	jump Start-Chapter1
+- the_plan
+	jump the_plan/
+# Echter Begin
 label Start-Chapter1
-[background fade="0.0"]
-# Hintergrung hinzufügen!
-[style name="3_style"]
-join character1 leftmost [animation="Fade In" length="0.0"]
 character1: Oh hello
 character1: You are new right?
 set {Boy_name} = "Nolan"
@@ -27,15 +27,17 @@ character1: Nice to meet you, i am Nolan
 	jump Lyras Problem
 - Who are you?
 	character3: Who are you and what do you want from me?
-	# wechsel zu Nolan confused/peinlich
+	update character1 (sad)
 	character1: Sorry i dont want to bother you. I just want to make new friends.
 	- cool!
 		character3: Oh, this very cool!
+		update character1 (happy)
 		jump Lyras Problem
 	- Shut up
 		character3: Shut up Nolan!
 		character1: Ok bye
 		[wait time="1.0"]
+		# add better ending!
 		jump The bad Ending
 label Lyras Problem
 [wait time="1.5"]
@@ -55,8 +57,8 @@ character2: I am Lyra and i have a big problem!
 	character1: But i will you.
 	- Follow Nolan
 		jump Help Lyra
-		# hinter grund wechsel mit schrift: Nolan geht mit Lyra weiter
 	- Stay
+		# ADD END!!
 		The End
 		[wait_input]
 		[end_timeline]
@@ -64,7 +66,6 @@ label Help Lyra
 [wait time="1.0"]
 character1: What is your problem?
 character2: Follow me, we need to get to a safe place.
-# Hintergrundwechsel und Charater änderung!
 [wait time="0.5"]
 leave character1
 [wait time="0.5"]

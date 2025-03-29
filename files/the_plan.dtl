@@ -11,9 +11,9 @@ character1: Should we call the police?
 - No
 	character3: No, this would not end good!
 	[wait time="1.0"]
-	join character2 leftmost
+	join character2 left [mirrored="true"]
 	[wait time="1.0"]
-	join character1 rightmost
+	join character1 right
 	[wait time="1.0"]
 	character3: We need a plan!
 	[wait time="1.0"]
@@ -41,6 +41,8 @@ leave character2
 [wait time="1.0"]
 [background arg="res://assets/empty school/empty_school (7).jpg" fade="0.0"]
 [wait time="1.0"]
+character3: Hello?
+character3: Is anybody here?
 label classrooms
 [wait time="1.0"]
 leave character1
@@ -50,4 +52,6 @@ leave character2
 [wait time="1.0"]
 [background arg="res://assets/empty school/empty_school (4).jpg" fade="0.0"]
 [wait time="1.0"]
+character3: Hello?
+character3: Is anyboday here?
 label toilet

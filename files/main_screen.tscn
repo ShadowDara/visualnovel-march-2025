@@ -1,6 +1,41 @@
-[gd_scene load_steps=2 format=3 uid="uid://cnoxpyowa6odm"]
+[gd_scene load_steps=3 format=3 uid="uid://cnoxpyowa6odm"]
 
 [ext_resource type="Script" uid="uid://bc04d22p10kjr" path="res://files/main_screen.gd" id="1_w2dsj"]
+[ext_resource type="Texture2D" uid="uid://osfl2w2utbo8" path="res://assets/25-Mar-12-06-06-19-16.png" id="2_eekxi"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_w2dsj")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 167.0
+offset_top = 850.0
+offset_right = 417.0
+offset_bottom = 1025.0
+text = "Exit"
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 167.0
+offset_top = 600.0
+offset_right = 417.0
+offset_bottom = 775.0
+text = "Credits"
+
+[node name="Button3" type="Button" parent="."]
+offset_left = 171.0
+offset_top = 350.0
+offset_right = 421.0
+offset_bottom = 525.0
+text = "Saves"
+
+[node name="Button4" type="Button" parent="."]
+offset_left = 171.0
+offset_top = 100.0
+offset_right = 421.0
+offset_bottom = 275.0
+theme_override_font_sizes/font_size = 80
+text = "Start"
+
+[node name="Nolan" type="Sprite2D" parent="."]
+position = Vector2(1588, 538)
+texture = ExtResource("2_eekxi")
+flip_h = true

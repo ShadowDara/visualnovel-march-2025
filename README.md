@@ -13,4 +13,4 @@ are able to play it!
 - Characters made with VRoid Studio
 
 ## License
-Check the LICENSE and the sub-license.html file!
+Check the [LICENSE](LICENSE) and the [sub-license.html](sub-license.html) file!

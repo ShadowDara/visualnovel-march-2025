@@ -14,7 +14,7 @@ config/name="Visual Novel March 2025"
 config/description="This a little Visual Novel created with Godot Engine and Dialogic by Shadowdara via MIT License!"
 run/main_scene="uid://cnoxpyowa6odm"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="uid://027xhaf4np1s"
+config/icon="uid://c5h58rxws8356"
 
 [autoload]
 

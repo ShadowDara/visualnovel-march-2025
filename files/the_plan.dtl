@@ -98,4 +98,13 @@ jump fbi/
 label toilet_2
 # after run away!
 [background arg="res://assets/Bathroom Backgrounds/bathroom interior 3.jpg" fade="0.0"]
-join character3 center
+join guy (sitting) center
+character3: Stop
+join guy (surprised) center
+character3: i caught you
+join guy (angry) center
+guy: What do you want from me?
+character3: I know what you are doing!
+join guy (really-angry) center
+character3: Give up, the FBI is already here!
+jump fbi/

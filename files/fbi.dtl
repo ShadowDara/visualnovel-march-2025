@@ -18,4 +18,14 @@ guy: I will give up!
 [wait time="1.0"]
 "Agent 1": Thank you for your help
 [wait time="1.0"]
+leave "Agent 2"
+[wait time="1.0"]
+join dara (scared) left
+dara: Ahhhh
+dara: What is going on here?!
+"Agent 1": No worries, miss.
+"Agent 1": The kids solved it!
+[wait_input hide_text="false"]
+leave dara
+leave "Agent 1"
 jump lyra_thanks/

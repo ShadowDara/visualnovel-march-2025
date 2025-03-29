@@ -71,7 +71,7 @@ leave character1
 [wait time="0.5"]
 leave character2
 [wait time="1.0"]
-[background scene="res://files/black_screen.tscn" fade="1.0"]
+[background arg="res://assets/balckscreen.jpeg" fade="1.0"]
 [wait time="1.0"]
 [background arg="res://assets/empty school/empty_school (55).jpg" fade="1.0"]
 [wait time="1.0"]
@@ -82,14 +82,14 @@ character2: There was a guy!
 character2: I saw him doing something strange!
 character2: I had never seen him before here in school!
 character2: When he saw me,
-he threatend me that he will the explode the school...
+character2: he threatend me that he will the explode the school...
 character2: when i told anyone else about his presens
 [wait_input]
 character2: ... but i need to tell it to anyone ...
 [wait time="1.0"]
 character2: So....
 [wait time="1.0"]
-character2: Can you please help me? It is so dangerus for everyone here!
+character2: Can you please help me? It is so dangerous for everyone here!
 [wait time="0.5" hide_text="false"]
 - Yes
 	character2: Thank you, thank you, thank you so much <3
@@ -104,6 +104,5 @@ character2: Can you please help me? It is so dangerus for everyone here!
 # Endings
 label The bad Ending
 THE END!
-# assest für nolan sad!
 [wait_input hide_text="false"]
 [end_timeline]

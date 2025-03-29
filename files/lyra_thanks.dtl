@@ -3,3 +3,8 @@
 join character2 left
 join character1 right
 [wait time="1.0"]
+character2: Thank you!
+character2: I dont what would happend without you!
+[wait_input]
+[wait time="1.0"]
+[end_timeline]

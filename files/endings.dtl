@@ -1,6 +1,14 @@
 # All Wrong Decisions which cant be saved anymore!
 # End 1
 label Call Police
+[wait time="1.0"]
+[background arg="res://assets/balckscreen.jpeg" fade="0.0"]
+[wait time="1.0"]
+Calling the police was not a good idea!
+[wait time="1.0"]
+The End
+[wait_input hide_text="false"]
+[end_timeline]
 [end_timeline]
 # End 2
 label No Help

@@ -31,6 +31,7 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "endings": "res://files/endings.dtl",
+"test": "res://files/test.dtl",
 "the_plan": "res://files/the_plan.dtl",
 "timeline1": "res://files/timeline1.dtl"
 }

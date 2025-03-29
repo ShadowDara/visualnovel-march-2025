@@ -11,7 +11,7 @@ character1: Should we call the police?
 - No
 	character3: No, this would not end good!
 	[wait time="1.0"]
-	join character2 left [mirrored="true"]
+	join character2 leftmost [mirrored="true"]
 	[wait time="1.0"]
 	join character1 right
 	[wait time="1.0"]
@@ -37,12 +37,26 @@ label science rooms
 leave character1
 leave character2
 [wait time="1.0"]
-[background scene="res://files/black_screen.tscn" fade="0.0"]
+[background arg="res://assets/balckscreen.jpeg" fade="0.0"]
 [wait time="1.0"]
 [background arg="res://assets/empty school/empty_school (7).jpg" fade="0.0"]
 [wait time="1.0"]
 character3: Hello?
 character3: Is anybody here?
+[wait time="1.0" hide_text="false"]
+join dara (base) right [animation="Fade In Up"]
+[wait time="1.0"]
+dara: I am here
+character3: Hey, do you have seen something strange?
+dara: hmmm...
+[wait time="1.0" hide_text="false"]
+dara: i think, i heard something strange in the bathroom
+character3: thank you!
+[wait time="1.0"]
+leave dara
+[wait time="1.0"]
+[background arg="res://assets/balckscreen.jpeg" fade="1.0"]
+jump toilet
 label classrooms
 [wait time="1.0"]
 leave character1
@@ -54,4 +68,23 @@ leave character2
 [wait time="1.0"]
 character3: Hello?
 character3: Is anyboday here?
+[wait time="1.0"]
+join guy (normal) rightmost [animation="Fade In Up" mirrored="true"]
+[wait time="1.0"]
+guy: Yeah, i am here!
+[wait time="1.0" hide_text="false"]
+character3: Hey, do you have seen something strange?
+update guy (angry)
+guy: No!
 label toilet
+[wait time="1.0"]
+[background arg="res://assets/Bathroom Backgrounds/bathroom interior 3.jpg" fade="1.0"]
+join guy (sitting) center
+[wait time="1.0"]
+character3: HEY!
+character3: What are you doing here!
+update guy (surprised)
+guy: AHHH
+label toilet_2
+[background fade="0.0"]
+join character3 center

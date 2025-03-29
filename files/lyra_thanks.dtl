@@ -1,0 +1,5 @@
+[background arg="res://assets/Visual Novel Backgrounds/park a s1 day.jpg" fade="0.0"]
+[wait time="1.0"]
+join character2 left
+join character1 right
+[wait time="1.0"]

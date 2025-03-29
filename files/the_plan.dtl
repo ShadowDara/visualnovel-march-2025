@@ -84,7 +84,18 @@ join guy (sitting) center
 character3: HEY!
 character3: What are you doing here!
 update guy (surprised)
-guy: AHHH
+guy: AHHHRRRGGGG!!!!
+update guy (angry)
+guy: nothing
+character3: I know what you are doing!
+character3: Give up
+character3: Whats in your backpack overthere?
+update guy (really-angry)
+guy: LEAVE ME ALONE!
+character3: No, give up!
+character3: My Friends already called the FBI!
+jump fbi/
 label toilet_2
-[background fade="0.0"]
+# after run away!
+[background arg="res://assets/Bathroom Backgrounds/bathroom interior 3.jpg" fade="0.0"]
 join character3 center

@@ -23,6 +23,8 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
+"Agent 1": "res://files/Agent 1.dch",
+"Agent 2": "res://files/Agent 2.dch",
 "character1": "res://files/character1.dch",
 "character2": "res://files/character2.dch",
 "character3": "res://files/character3.dch",
@@ -31,6 +33,8 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "endings": "res://files/endings.dtl",
+"fbi": "res://files/fbi.dtl",
+"lyra_thanks": "res://files/lyra_thanks.dtl",
 "test": "res://files/test.dtl",
 "the_plan": "res://files/the_plan.dtl",
 "timeline1": "res://files/timeline1.dtl"

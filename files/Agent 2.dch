@@ -8,29 +8,20 @@
 "sound_moods": {},
 "style": ""
 },
-&"default_portrait": "sad_confused",
+&"default_portrait": "normal",
 &"description": "",
-&"display_name": "{Lyra_name}",
+&"display_name": "Agent 2",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"sad_confused": {
+"normal": {
 "export_overrides": {
-"image": "\"res://assets/25-Mar-14-02-02-53-59.png\""
+"image": "\"res://assets/25-Mar-29-06-06-54-49.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 0.8,
-"scene": ""
-},
-"tnaks": {
-"export_overrides": {
-"image": "\"res://assets/lyra-thanks.png\""
-},
-"mirror": false,
-"offset": Vector2(0, 0),
-"scale": 1.0,
+"scale": 1,
 "scene": ""
 }
 },

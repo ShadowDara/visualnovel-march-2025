@@ -41,7 +41,6 @@ theme_override_font_sizes/font_size = 80
 text = "Saves"
 
 [node name="Credits" type="Button" parent="MarginContainer/VBoxContainer"]
-visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 80
 text = "Credits"

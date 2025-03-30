@@ -1,20 +1,7 @@
-# add no's and different endings!
-# more assets
-# sounds
-# backgroungs scenes
 [style name="3_style"]
-[background arg="res://assets/Cafe Backgorund/Cafe_Alley.jpg" fade="2.0"]
-[wait time="2.0"]
-join character1 leftmost [animation="Fade In" wait="true"]
-# Hintergrung hinzufügen!
-# for skipping! (nöch löschen)
-- Lyra P
-	jump Lyras Problem
-- normalplay
-	jump Start-Chapter1
-- the_plan
-	jump the_plan/
-# Echter Begin
+[background arg="res://assets/Cafe Backgorund/Cafe_Alley.jpg" fade="1.0"]
+[wait time="1.5"]
+join character1 leftmost [animation="Fade In" length="1.0" wait="true"]
 label Start-Chapter1
 character1: Oh hello
 character1: You are new right?
@@ -37,10 +24,10 @@ character1: Nice to meet you, i am Nolan
 		character3: Shut up Nolan!
 		character1: Ok bye
 		[wait time="1.0"]
-		# add better ending!
-		jump The bad Ending
+		leave character1
+		jump endings/Basic end
 label Lyras Problem
-[wait time="1.5"]
+[wait time="1.0"]
 character2: HELP!!!
 [wait time="1.0"]
 join character2 rightmost [z_index="10"]
@@ -58,25 +45,24 @@ character2: I am Lyra and i have a big problem!
 	- Follow Nolan
 		jump Help Lyra
 	- Stay
-		# ADD END!!
-		The End
-		[wait_input]
-		[end_timeline]
+		leave character1
+		leave character2
+		jump endings/Basic end
 label Help Lyra
-[wait time="1.0"]
+[wait time="0.5"]
 character1: What is your problem?
 character2: Follow me, we need to get to a safe place.
 [wait time="0.5"]
 leave character1
 [wait time="0.5"]
 leave character2
-[wait time="1.0"]
+[wait time="0.5"]
 [background arg="res://assets/balckscreen.jpeg" fade="1.0"]
-[wait time="1.0"]
+[wait time="1.3"]
 [background arg="res://assets/empty school/empty_school (55).jpg" fade="1.0"]
-[wait time="1.0"]
+[wait time="0.5"]
 join character2 center [mirrored="true"]
-[wait time="1.0"]
+[wait time="0.5"]
 character2: I think here we are safe!
 character2: There was a guy!
 character2: I saw him doing something strange!
@@ -86,11 +72,10 @@ character2: he threatend me that he will the explode the school...
 character2: when i told anyone else about his presens
 [wait_input]
 character2: ... but i need to tell it to anyone ...
-[wait time="1.0"]
+[wait time="0.5"]
 character2: So....
-[wait time="1.0"]
+[wait time="0.5"]
 character2: Can you please help me? It is so dangerous for everyone here!
-[wait time="0.5" hide_text="false"]
 - Yes
 	character2: Thank you, thank you, thank you so much <3
 	join character2 leftmost [mirrored="true"]
@@ -99,10 +84,6 @@ character2: Can you please help me? It is so dangerous for everyone here!
 	character1: We need to make a plan!
 	jump the_plan/
 - No
-	# End 2
 	jump endings/No Help
-# Endings
-label The bad Ending
-THE END!
-[wait_input hide_text="false"]
-[end_timeline]
+	character2: No!
+	leave character2

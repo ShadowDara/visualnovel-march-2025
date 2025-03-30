@@ -1,6 +1,6 @@
 # visual-novel-march-2025
 
-## ***[Play on itch io!](https://shadowdara.itch.io/visual-novel-march-2025)***
+## ***[Play free on itch.io!](https://shadowdara.itch.io/visual-novel-march-2025)***
 
 ---
 
@@ -24,3 +24,9 @@ are able to play it!
 
 ## License
 Check the [LICENSE](LICENSE) and the [sub-license.html](sub-license.html) file!
+
+---
+
+## About
+
+Made without experience but with :heart: in Godot!

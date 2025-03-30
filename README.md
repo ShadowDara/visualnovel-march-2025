@@ -1,6 +1,6 @@
 # visual-novel-march-2025
 
-## ***[Play on itch io!](https://shadowdara.itch.io/visual-novel-march-2025)***
+## ***[Play free on itch.io!](https://shadowdara.itch.io/visual-novel-march-2025)***
 
 ---
 

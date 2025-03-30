@@ -24,3 +24,9 @@ are able to play it!
 
 ## License
 Check the [LICENSE](LICENSE) and the [sub-license.html](sub-license.html) file!
+
+---
+
+## About
+
+Made without experience but with :heart: in Godot!

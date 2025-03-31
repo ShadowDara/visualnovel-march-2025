@@ -1,25 +1,22 @@
 guy: I dont believe you!
-[wait time="1.0" hide_text="false"]
+[wait time="0.2" hide_text="false"]
 leave guy
-[wait time="1.0"]
 [background arg="res://assets/empty school/empty_school (3).jpg" fade="1.0"]
 [wait time="1.0"]
 join "Agent 1" right
 join "Agent 2" left
-[wait time="1.0"]
 "Agent 1": Put your hands up!
 "Agent 2": Its over!
 "Agent 1": You've no chance!
-[wait time="1.0"]
+[wait time="0.2"]
 guy: OK
 guy: I will give up!
-[wait time="1.0"]
+[wait time="0.2"]
 "Agent 2": This was the right choice
-[wait time="1.0"]
+[wait time="0.2"]
 "Agent 1": Thank you for your help
-[wait time="1.0"]
+[wait time="0.2"]
 leave "Agent 2"
-[wait time="1.0"]
 join dara (scared) left
 dara: Ahhhh
 dara: What is going on here?!
